@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d862e47e-3ccd-4adb-a0fe-39551aca1ff3" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BronzeCardImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/SilverCardImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/GoldCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/SilverCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/BronzeDiscountRateTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/StartUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/GoldDiscountTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/SilverDiscountTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BaseCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/GoldCardImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/primeHolding/Main.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/BrothersInTheBar.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/BrothersInTheBarLL.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/MarketStore.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/MarketStore/MarketStore.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/providers/PayDesk.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/providers/providersContracts/PayDesk.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/providers/providersContracts/providersImpl/PayDeskImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/providers/providersImpl/PayDeskImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/SilverCard.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/GoldCard.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/BronzeCard.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/discountRate.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/CardComponent.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/DiscountRate.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/CardBuilder.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountCalculationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/DiscountRateTypes.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/BronzeCardDiscountCalculation.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/Turnover.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/Card.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/providersContracts/PayDesk.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/providersImpl/PayDeskImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategyBronze.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategy.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategySilver.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategyGold.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/Owner.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/PayDesk.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/CalculationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BaseCard.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/GoldCardImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BronzeCardImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/SilverCardImpl.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/SilverDiscountTypes.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/GoldDiscountTypes.java" />
+        <option value="$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/BronzeDiscountRateTypes.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="cardComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="cardContracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="cardImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brothers in The Bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brothers in The Bar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="primeHolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marketStore" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="enumComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StartUp">
+    <configuration name="BrothersInTheBarLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeHolding.brothersInTheBar.BrothersInTheBarLL" />
+      <module name="Brothers in The Bar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeHolding.marketStore.models.cardContracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="primeHolding.brothersInTheBar.BrothersInTheBarST" />
+      <module name="Brothers in The Bar" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeHolding.marketStore.StartUp" />
+      <module name="Brothers in The Bar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeHolding.marketStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BrothersInTheBarLL" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StartUp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartUp" />
+        <item itemvalue="Application.BrothersInTheBarLL" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d862e47e-3ccd-4adb-a0fe-39551aca1ff3" name="Default Changelist" comment="" />
+      <created>1581609628941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581609628941</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32924962" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.91424197" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Codota" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Debug" order="9" weight="0.14932433" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32924962" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Codota" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Debug" order="9" weight="0.14932433" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/primeHolding/brothersInTheBar/BrothersInTheBarST.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/primeHolding/brothersInTheBar/BrothersInTheBarLL.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/brothersInTheBar/BrothersInTheBarLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/BrothersInTheBar.java" />
+    <entry file="file://$PROJECT_DIR$/Brothers in The Bar.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/brothersInTheBar/BrothersInTheBarST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/CardComponent.java" />
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/CardBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/providersContracts/PayDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/providersImpl/PayDeskImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/DiscountRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/CalculationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategyBronze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategyGold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/factories/DiscountStrategySilver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/core/providers/PayDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardComponents/Turnover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/BronzeCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/GoldCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardContracts/SilverCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BaseCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/BronzeCardImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/GoldCardImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/cardImpl/SilverCardImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/SilverDiscountTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/GoldDiscountTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/models/enumComponents/BronzeDiscountRateTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeHolding/marketStore/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
