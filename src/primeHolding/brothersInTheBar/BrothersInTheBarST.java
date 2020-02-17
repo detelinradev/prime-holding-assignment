@@ -106,7 +106,7 @@ public class BrothersInTheBarST {
     }
 
         long time2 = System.currentTimeMillis() -time1;
-        System.out.print(result);
+        System.out.println("brothersInTheBar(glasses) = " + result);
 
 }
 }

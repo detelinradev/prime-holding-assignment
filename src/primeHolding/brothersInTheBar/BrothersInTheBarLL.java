@@ -51,6 +51,6 @@ public class BrothersInTheBarLL {
                 }
             }
         }
-        System.out.println(result);
+        System.out.println("brothersInTheBar(glasses) = " + result);
     }
 }
