@@ -1,6 +1,6 @@
 package primeHolding.marketStore.core.factories;
 
-import primeHolding.marketStore.models.cardComponents.Turnover;
+import primeHolding.marketStore.models.cardComponentsContracts.TurnoverBase;
 import primeHolding.marketStore.models.enumComponents.BronzeDiscountRateTypes;
 
 public class DiscountStrategyBronze implements DiscountStrategy {
@@ -9,7 +9,7 @@ public class DiscountStrategyBronze implements DiscountStrategy {
     private final static int SECOND_STAGE_TURNOVER = 300;
 
     @Override
-    public double calculateDiscount(Turnover turnover, double valueOfPurchase) {
+    public double calculateDiscount(TurnoverBase turnover, double valueOfPurchase) {
 
         if (turnover.getTurnover() < FIRST_STAGE_TURNOVER)
             return BronzeDiscountRateTypes.FIRST.getRate();

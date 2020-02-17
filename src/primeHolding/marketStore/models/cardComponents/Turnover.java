@@ -1,7 +1,9 @@
 package primeHolding.marketStore.models.cardComponents;
 
 
-public class Turnover {
+import primeHolding.marketStore.models.cardComponentsContracts.TurnoverBase;
+
+public class Turnover implements TurnoverBase {
 
     private double turnover;
 
@@ -9,6 +11,7 @@ public class Turnover {
         this.turnover = turnover;
     }
 
+    @Override
     public double getTurnover() {
         return turnover;
     }

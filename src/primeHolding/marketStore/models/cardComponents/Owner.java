@@ -1,7 +1,9 @@
 package primeHolding.marketStore.models.cardComponents;
 
 
-public class Owner {
+import primeHolding.marketStore.models.cardComponentsContracts.OwnerBase;
+
+public class Owner implements OwnerBase {
 
     private String ownerName;
 

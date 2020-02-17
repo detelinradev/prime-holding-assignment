@@ -1,6 +1,6 @@
 package primeHolding.marketStore.core.factories;
 
-import primeHolding.marketStore.models.cardComponents.Turnover;
+import primeHolding.marketStore.models.cardComponentsContracts.TurnoverBase;
 
 public class CalculationStrategy {
 
@@ -10,7 +10,7 @@ public class CalculationStrategy {
         this.discountStrategy = discountStrategy;
     }
 
-    public double calculateRate(Turnover turnover, double purchaseAmount){
+    public double calculateRate(TurnoverBase turnover, double purchaseAmount){
         return discountStrategy.calculateDiscount(turnover, purchaseAmount);
     }
 }

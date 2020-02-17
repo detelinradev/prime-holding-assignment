@@ -2,7 +2,8 @@ package primeHolding.marketStore.models.cardImpl;
 
 import primeHolding.marketStore.core.factories.CalculationStrategy;
 import primeHolding.marketStore.models.cardComponents.Owner;
-import primeHolding.marketStore.models.cardComponents.Turnover;
+import primeHolding.marketStore.models.cardComponentsContracts.OwnerBase;
+import primeHolding.marketStore.models.cardComponentsContracts.TurnoverBase;
 import primeHolding.marketStore.models.cardContracts.Card;
 
 public abstract class BaseCard implements Card {
@@ -10,7 +11,7 @@ public abstract class BaseCard implements Card {
     abstract static class Builder<T extends Builder<T>> {
         private CalculationStrategy calculationStrategy;
         private Owner owner;
-        private Turnover turnover;
+        private TurnoverBase turnover;
 
         public T withCalculationStrategy(CalculationStrategy calculationStrategy) {
             this.calculationStrategy = calculationStrategy;
@@ -24,7 +25,7 @@ public abstract class BaseCard implements Card {
             return self();
         }
 
-        public T withTurnover(Turnover turnover) {
+        public T withTurnover(TurnoverBase turnover) {
             this.turnover = turnover;
 
             return self();
@@ -36,8 +37,8 @@ public abstract class BaseCard implements Card {
     }
 
     private CalculationStrategy calculationStrategy;
-    private Owner owner;
-    private Turnover turnover;
+    private OwnerBase owner;
+    private TurnoverBase turnover;
 
     BaseCard(Builder<?> builder) {
         calculationStrategy = builder.calculationStrategy;
@@ -49,11 +50,11 @@ public abstract class BaseCard implements Card {
         return calculationStrategy;
     }
 
-    public Owner getOwner() {
+    public OwnerBase getOwner() {
         return owner;
     }
 
-    public Turnover getTurnover() {
+    public TurnoverBase getTurnover() {
         return turnover;
     }
 }
