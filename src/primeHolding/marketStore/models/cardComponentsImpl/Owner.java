@@ -1,4 +1,4 @@
-package primeHolding.marketStore.models.cardComponents;
+package primeHolding.marketStore.models.cardComponentsImpl;
 
 
 import primeHolding.marketStore.models.cardComponentsContracts.OwnerBase;

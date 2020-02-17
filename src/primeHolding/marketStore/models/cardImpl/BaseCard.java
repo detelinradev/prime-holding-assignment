@@ -1,7 +1,7 @@
 package primeHolding.marketStore.models.cardImpl;
 
 import primeHolding.marketStore.core.factories.CalculationStrategy;
-import primeHolding.marketStore.models.cardComponents.Owner;
+import primeHolding.marketStore.models.cardComponentsImpl.Owner;
 import primeHolding.marketStore.models.cardComponentsContracts.OwnerBase;
 import primeHolding.marketStore.models.cardComponentsContracts.TurnoverBase;
 import primeHolding.marketStore.models.cardContracts.Card;
