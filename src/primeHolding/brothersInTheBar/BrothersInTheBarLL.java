@@ -10,7 +10,9 @@ import java.util.ListIterator;
 
 public class BrothersInTheBarLL {
     public static void main(String[] args) {
+
         String[] input = null;
+
         try (BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(System.in))) {
             bufferedReader.skip(11);
@@ -18,17 +20,23 @@ public class BrothersInTheBarLL {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         List<String> glasses;
         int result = 0;
-        if (input != null) {
-            glasses = new LinkedList<>(Arrays.asList(input));
 
+        if (input != null) {
+
+            glasses = new LinkedList<>(Arrays.asList(input));
             ListIterator<String> iterator = glasses.listIterator();
+
             if(glasses.size()>2) {
                 String thirdBeer = iterator.next();
                 String secondBeer = iterator.next();
+
                 while (glasses.size() > 2 && iterator.hasNext()) {
+
                     String firstBeer = iterator.next();
+
                     if (thirdBeer.equals(secondBeer) && secondBeer.equals(firstBeer)) {
                         iterator.remove();
                         iterator.previous();
@@ -40,6 +48,7 @@ public class BrothersInTheBarLL {
                         for (int i = 0; i < 2 && iterator.hasPrevious(); i++) {
                             iterator.previous();
                         }
+
                         if(glasses.size()>2) {
                             thirdBeer = iterator.next();
                             secondBeer = iterator.next();

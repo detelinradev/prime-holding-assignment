@@ -9,6 +9,7 @@ public class DiscountStrategySilver  implements DiscountStrategy{
 
     @Override
     public double calculateDiscount(Turnover turnover, double purchaseAmount) {
+
         if (turnover.getTurnover() < FIRST_STAGE_TURNOVER)
             return SilverDiscountTypes.FIRST.getRate();
         else return SilverDiscountTypes.SECOND.getRate();

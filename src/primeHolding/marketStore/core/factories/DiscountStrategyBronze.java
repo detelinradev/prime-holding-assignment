@@ -10,10 +10,13 @@ public class DiscountStrategyBronze implements DiscountStrategy {
 
     @Override
     public double calculateDiscount(Turnover turnover, double valueOfPurchase) {
+
         if (turnover.getTurnover() < FIRST_STAGE_TURNOVER)
             return BronzeDiscountRateTypes.FIRST.getRate();
+
         else if (turnover.getTurnover() < SECOND_STAGE_TURNOVER)
             return BronzeDiscountRateTypes.SECOND.getRate();
+
         else return BronzeDiscountRateTypes.THIRD.getRate();
     }
 }
