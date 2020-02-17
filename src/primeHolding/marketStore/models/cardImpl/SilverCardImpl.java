@@ -34,7 +34,4 @@ public class SilverCardImpl extends BaseCard implements SilverCard {
         return accountNumber;
     }
 
-    private void setAccountNumber(long accountNumber) {
-        this.accountNumber = accountNumber;
-    }
 }

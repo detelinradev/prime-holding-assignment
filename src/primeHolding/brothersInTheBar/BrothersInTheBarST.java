@@ -3,26 +3,21 @@ package primeHolding.brothersInTheBar;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class BrothersInTheBarST {
 
     public static void main(String[] args) {
 
-//        long time1 = System.currentTimeMillis();
-//        String[] glasses = null;
-//        try (BufferedReader bufferedReader = new BufferedReader(
-//                new InputStreamReader(System.in))) {
-//            bufferedReader.skip(11);
-//            glasses = bufferedReader.readLine().split("[ ,\\]]+");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-        String[] glasses = new String[1000000];
-        Arrays.fill(glasses, "7");
+        String[] glasses = null;
+        try (BufferedReader bufferedReader = new BufferedReader(
+                new InputStreamReader(System.in))) {
+            bufferedReader.skip(11);
+            glasses = bufferedReader.readLine().split("[ ,\\]]+");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         long time1 = System.currentTimeMillis();
-        for (int i = 0; i < 2; i++) {
         int result = 0;
         if (glasses != null) {
             int arrayLength = glasses.length;
@@ -108,13 +103,10 @@ public class BrothersInTheBarST {
             }
         } else {
             throw new IllegalArgumentException("Array should not be null");
-        }
-//        System.out.print(result);
     }
-//        System.out.println();
 
         long time2 = System.currentTimeMillis() -time1;
-        System.out.println(time2);
+        System.out.print(result);
 
 }
 }

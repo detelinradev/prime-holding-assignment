@@ -34,7 +34,4 @@ public class GoldCardImpl extends BaseCard implements GoldCard  {
         return accountNumber;
     }
 
-    private void setAccountNumber(long accountNumber) {
-        this.accountNumber = accountNumber;
-    }
 }

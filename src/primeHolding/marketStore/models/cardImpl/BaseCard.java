@@ -7,24 +7,24 @@ import primeHolding.marketStore.models.cardContracts.Card;
 
 public abstract class BaseCard implements Card {
 
-    abstract static class Builder<T extends Builder<T>>{
+    abstract static class Builder<T extends Builder<T>> {
         private CalculationStrategy calculationStrategy;
         private Owner owner;
         private Turnover turnover;
 
-        public T withCalculationStrategy(CalculationStrategy discountStrategy){
-            this.calculationStrategy = discountStrategy;
+        public T withCalculationStrategy(CalculationStrategy calculationStrategy) {
+            this.calculationStrategy = calculationStrategy;
 
             return self();
         }
 
-        public T withOwner (Owner owner){
+        public T withOwner(Owner owner) {
             this.owner = owner;
 
             return self();
         }
 
-        public T withTurnover(Turnover turnover){
+        public T withTurnover(Turnover turnover) {
             this.turnover = turnover;
 
             return self();
@@ -32,7 +32,7 @@ public abstract class BaseCard implements Card {
 
         abstract BaseCard build();
 
-        protected abstract T self ();
+        protected abstract T self();
     }
 
     private CalculationStrategy calculationStrategy;
@@ -41,8 +41,8 @@ public abstract class BaseCard implements Card {
 
     BaseCard(Builder<?> builder) {
         calculationStrategy = builder.calculationStrategy;
-        owner= builder.owner;
-        turnover= builder.turnover;
+        owner = builder.owner;
+        turnover = builder.turnover;
     }
 
     public CalculationStrategy getCalculationStrategy() {
@@ -56,17 +56,4 @@ public abstract class BaseCard implements Card {
     public Turnover getTurnover() {
         return turnover;
     }
-
-    private void setCalculationStrategy(CalculationStrategy calculationStrategy) {
-        this.calculationStrategy = calculationStrategy;
-    }
-
-    private void setOwner(Owner owner) {
-        this.owner = owner;
-    }
-
-    private void setTurnover(Turnover turnover) {
-        this.turnover = turnover;
-    }
-
 }

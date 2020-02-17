@@ -34,7 +34,4 @@ public class BronzeCardImpl extends BaseCard implements BronzeCard {
         return accountNumber;
     }
 
-    private void setAccountNumber(long accountNumber) {
-        this.accountNumber = accountNumber;
-    }
 }
