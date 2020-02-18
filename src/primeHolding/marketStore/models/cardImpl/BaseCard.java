@@ -10,7 +10,7 @@ public abstract class BaseCard implements Card {
 
     abstract static class Builder<T extends Builder<T>> {
         private CalculationStrategy calculationStrategy;
-        private Owner owner;
+        private OwnerBase owner;
         private TurnoverBase turnover;
 
         public T withCalculationStrategy(CalculationStrategy calculationStrategy) {
@@ -19,7 +19,7 @@ public abstract class BaseCard implements Card {
             return self();
         }
 
-        public T withOwner(Owner owner) {
+        public T withOwner(OwnerBase owner) {
             this.owner = owner;
 
             return self();

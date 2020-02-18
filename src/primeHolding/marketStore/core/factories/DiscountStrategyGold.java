@@ -17,7 +17,7 @@ public class DiscountStrategyGold implements DiscountStrategy {
             if (turnover.getTurnover() >= 900) {
                 return 0.1;
             } else
-                return GoldDiscountTypes.SECOND.getRate() * (turnover.getTurnover() / 100) + 2;
+                return GoldDiscountTypes.SECOND.getRate() * (turnover.getTurnover() / 100) + 0.02;
         }
     }
 }

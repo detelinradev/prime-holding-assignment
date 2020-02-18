@@ -18,7 +18,7 @@ public class StartUp {
         Card bronzeCard = new BronzeCardImpl.Builder(1)
                 .withOwner(new Owner("Mark Wo"))
                 .withCalculationStrategy(new CalculationStrategy(new DiscountStrategyBronze()))
-                .withTurnover(new Turnover(0))
+                .withTurnover(new Turnover(400))
                 .build();
 
         PayDesk.printOut(bronzeCard,150);
@@ -26,7 +26,7 @@ public class StartUp {
         Card silverCard = new SilverCardImpl.Builder(2)
                 .withOwner(new Owner("Denis Colt"))
                 .withCalculationStrategy(new CalculationStrategy(new DiscountStrategySilver()))
-                .withTurnover(new Turnover(600))
+                .withTurnover(new Turnover(200))
                 .build();
 
         PayDesk.printOut(silverCard,850);
@@ -34,7 +34,7 @@ public class StartUp {
         Card goldCard = new GoldCardImpl.Builder(3)
                 .withOwner(new Owner("Harry Richardson"))
                 .withCalculationStrategy(new CalculationStrategy(new DiscountStrategyGold()))
-                .withTurnover(new Turnover(1500))
+                .withTurnover(new Turnover(101))
                 .build();
 
         PayDesk.printOut(goldCard,1300);
